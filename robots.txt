@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://dylanrubini.github.io/al-folio/sitemap.xml
+Sitemap: https://dylanrubini.github.io/sitemap.xml
