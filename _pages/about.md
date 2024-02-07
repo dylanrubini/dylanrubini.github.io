@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD Student at the University of Oxford
+subtitle: Engineering PhD Student at the University of Oxford
 
 profile:
   align: right
