@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a mechanical engineer working in multiphysics modeling using machine learnig, aerodynamics, aerospace, turbomachinery and energy systems.
+I am a mechanical engineer working on multiphysics modeling using machine learnig, aerodynamics, aerospace, turbomachinery and energy systems. I am looking to work on novel zero-carbon energy technologies that could provide clean power to propel the society of future generations. 
 
 I am currently a final year PhD student at the University of Oxford developing new numerical machine-learing-accelerated multiphysics modeling tools for the design of a new class of turbomachines to decarbonise high-temperature endothermic chemical reaction processes.
 
