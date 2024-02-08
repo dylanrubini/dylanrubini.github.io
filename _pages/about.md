@@ -16,9 +16,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a mechanical engineer working in multiphysics modeling, aerodynamics, aerospace, turbomachinery and energy systems.
+I am a mechanical engineer working in multiphysics modeling using machine learnig, aerodynamics, aerospace, turbomachinery and energy systems.
 
-I am currently a final year PhD student at the University of Oxford developing new numerical multiphysics modeling tools for the design of a new class of turbomachines to decarbonise high-temperature endothermic chemical reaction processes.
+I am currently a final year PhD student at the University of Oxford developing new numerical machine-learing-accelerated multiphysics modeling tools for the design of a new class of turbomachines to decarbonise high-temperature endothermic chemical reaction processes.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
