@@ -2,20 +2,20 @@
 layout: page
 permalink: /repositories/
 title: Repositories
-description: GitHub repositories
+description: My personal GitHub repos
 nav: true
 nav_order: 4
 ---
 
-## GitHub users
-
+<!-- ## GitHub Users -->
+<!-- 
 {% if site.data.repositories.github_users %}
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}
     {% include repository/repo_user.liquid username=user %}
   {% endfor %}
-</div>
+</div> -->
 
 ---
 
