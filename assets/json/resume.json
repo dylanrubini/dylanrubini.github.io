@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Dylan Rubini",
-    "label": "Engineering PhD Student",
+    "role": "Engineering PhD Student",
     "image": "",
     "email": "dylan.rubini@eng.ox.ac.uk",
     "phone": "",
@@ -14,11 +14,12 @@
     {
       "name": "Oxford Thermofluids Institute, University of Oxford",
       "position": "Final year PhD student",
-      "url": "https://example.com",
-      "startDate": "2021-10-01",
-      "endDate": "2024-10-01",
-      "summary": "Studying .... add this --- machine learnis, multiphysics scalabe GPU parallelisation",
-      "highlights": []
+      "location": "Oxford, United Kingdom",
+      "url": "https://oti.eng.ox.ac.uk/",
+      "startDate": "2020.10",
+      "endDate": "2024.10",
+      "summary": "Pioneering work developing multi-fidelity machine-learning-assisted reduced-order modelling techniques to accelerate multiphysics coupling in a new class of high-speed turbomachines for zero-carbon high-temperature chemical reaction processes. This enables aerochemically-guided design optimisation for the first time in turbomachinery. This is first-ever work on reacting flows along bladed path of a turbomachinery in the engineering community.",
+      "highlights": ["todo"]
     }
   ],
   "volunteer": [

@@ -16,9 +16,14 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a mechanical engineer working on multiphysics modeling using machine learnig, aerodynamics, aerospace, turbomachinery and energy systems. I am looking to work on novel zero-carbon energy technologies that could provide clean power to propel the society of future generations. 
+**Me** I am a engineering PhD student at the University of Oxford working at the intersection between machine learning, computational science and aerothermochemistry to develop multidisciplinary, multiphysics numerical tools accelerate the transition to a zero-carbon society.
 
-I am currently a final year PhD student at the University of Oxford developing new numerical machine-learing-accelerated multiphysics modeling tools for the design of a new class of turbomachines to decarbonise high-temperature endothermic chemical reaction processes.
+**Research** I have worked on many different projects including:
+
+- computationally accelerating chemically reacting flow simulations using machine learning
+- developing a 3D viscous unstructured turbomachinery flow solver for GPUs and CPUs 
+- developing chemical kinetic solvers with embedded multiobjective optimizer
+- using high fidelity computational fluid dynamics to investigate the complex aerothermal interactions within a new turbomachinery for decarbonising high-temperature processes
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
