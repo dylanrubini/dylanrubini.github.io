@@ -11,7 +11,7 @@ profile:
   more_info:
 
 news: false # includes a list of news items
-latest_posts: true # includes a list of the newest posts
+latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
@@ -20,10 +20,10 @@ social: true # includes social icons at the bottom of the page
 
 **Research** I have worked on many different projects including:
 
-- computationally accelerating chemically reacting flow simulations using machine learning
+- computationally accelerating chemically reacting flow simulations by three orders of magnitude using machine learning
 - developing a 3D viscous unstructured turbomachinery flow solver for GPUs and CPUs 
 - developing chemical kinetic solvers with embedded multiobjective optimizer
-- using high fidelity computational fluid dynamics to investigate the complex aerothermal interactions within a new turbomachinery for decarbonising high-temperature processes
+- using high fidelity computational fluid dynamics to investigate the complex aerothermal interactions within a new turbomachinery for decarbonising over 40 high-temperature processes
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
