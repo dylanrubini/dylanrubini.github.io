@@ -2,7 +2,7 @@
 layout: page
 title: Can we bring multiphysics modelling to the design level?
 description: Accelerating reacting flow computations using ML
-img: assets/img/auto.jpg
+img: assets/img/autoencoder.jpg
 importance: 1
 category: work
 related_publications: false
