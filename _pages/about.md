@@ -16,14 +16,16 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-**Me** I am a engineering PhD student at the University of Oxford working at the intersection between machine learning, computational science and aerothermochemistry to develop multidisciplinary, multiphysics numerical tools accelerate the transition to a zero-carbon society.
+### **Me**  
+I am an Engineering PhD student at the University of Oxford, working at the intersection of machine learning, computational science, and multiphysics. My research focuses on developing multidisciplinary and multifidelity numerical tools to accelerate the transition to a zero-carbon society.
 
-**Research** I have worked on many different projects including:
+### **Selected Research**  
+I have worked on a variety of projects, including, but not limited to:
 
-- computationally accelerating chemically reacting flow simulations by three orders of magnitude using machine learning
-- developing a 3D viscous unstructured turbomachinery flow solver for GPUs and CPUs 
-- developing chemical kinetic solvers with embedded multiobjective optimizer
-- using high fidelity computational fluid dynamics to investigate the complex aerothermal interactions within a new turbomachinery for decarbonising over 40 high-temperature processes
+- **Accelerating Chemically Reacting Flow Simulations:** Using machine learning to elegantly speed up simulations of chemically reacting flows by three orders of magnitude.
+- **Developing a 3D Viscous Unstructured Turbomachinery Flow Solver:** Created a multi-fidelity flow solver designed for both GPUs and CPUs.
+- **Chemical Kinetic Solvers with Embedded Multi-objective Optimizers:** Developing solvers that incorporate multi-objective optimization techniques for improved performance.
+- **High-Fidelity Computational Fluid Dynamics (CFD):** Using high-fidelity CFD to investigate complex aerothermal, supersonic, highly turbulent interactions in a novel turbomachinery concept aimed at decarbonizing over 40 high-temperature processes.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
