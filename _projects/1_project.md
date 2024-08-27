@@ -49,11 +49,11 @@ For applications of the turbo-reactor where the fluid undergoes a chemical react
 These figures outline the new multi-fidelity ML-assisted $$\texttt{ChemZIP}$$ methodology to accelerate multiphysics numerical analysis of the turbo-reactor.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/training.JPG" title="Training database generation workflow" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/NeuralNetWorkFlow.jpg" title="Training database generation workflow" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    <strong>Multi-fidelity ML-assisted ChemZIPtraining database generation workflow</strong>
+    <strong>Multi-fidelity ML-assisted ChemZIP training database generation workflow</strong>
 </div>
 
 <div class="row">
