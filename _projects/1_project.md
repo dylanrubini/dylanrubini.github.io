@@ -27,11 +27,11 @@ Decarbonising high-temperature industrial heat within fossil-fuel-fired furnaces
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/rdroverall.jpg" title="The New Turbo-Reactor" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/RDRVsHeX.jpg" title="The New Turbo-Reactor" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Electrified turbo-reactor could decarbonise many hard-to-abate industrial processes
+    <strong>Electrified turbo-reactor could decarbonise many hard-to-abate industrial processes</strong>
 </div>
 
 the revolutionary new turbomachine called the turbo-reactor proposed as an efficient, effective and financially attractive solution for decarbonising over 40 hard-to-abate sectors. By replacing the surface heat exchange energy transfer mechanism within a furnace with direct mechanical energy transfer to the fluid within the turbo-reactor, the power density can increase by 50 to 500 times, while simultaneously improving the quality of the process. This is enabled by a new turbomachinery principle, in which all mechanical energy transferred to the fluid is converted into kinetic energy and subsequently into internal energy of the fluid, rather than pressure. 
@@ -53,16 +53,16 @@ These figures outline the new multi-fidelity ML-assisted $$\texttt{ChemZIP}$$ me
     </div>
 </div>
 <div class="caption">
-    Multi-fidelity ML-assisted ChemZIPtraining database generation workflow
+    <strong>Multi-fidelity ML-assisted ChemZIPtraining database generation workflow</strong>
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/auto.JPG" title="Autoencoder" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/autoencoder.jpg" title="Autoencoder" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Multi-fidelity ML-assisted ChemZIP methodology overview
+    <strong>Multi-fidelity ML-assisted ChemZIP methodology overview</strong>
 </div>
 
 First, non-reacting CFD of the turbo-reactor establishes a realistic envelope of energy supply profiles into the chemical reaction. From this envelope, thousands of energy supply profiles are generated and applied to a detailed chemical kinetic model in a 1-D plug-flow reactor (PFR) environment. These randomly generated energy supply profiles (within a realistic envelope) lead to a broad spectrum of reaction perturbations for which the thermochemical state (*e.g.,* $$Y_k$$ & $$T$$) and response dynamics (*e.g.,* $$\dot{\omega}_k$$) can be recorded. This forms a large database for training the $$\texttt{ChemZIP}$$ model with over 5 million samples. By simplifying the fluid dynamics (*i.e.,* by using a PFR) while retaining detailed kinetics, this methodology provides an elegant solution to rapidly generate a training database that densely and widely covers the relevant region of the thermochemical space in only a few hours.
@@ -80,51 +80,51 @@ To demonstrate the feasibility, success, and future potential of this new method
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/speedup.JPG" title="Speedup" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/speedup.jpg" title="Speedup" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Performance benchmarking of ChemZIP compared with a state-of-the-art solver
+    <strong>Performance benchmarking of ChemZIP compared with a state-of-the-art solver</strong>
 </div>
 
 This sizeable computational acceleration is achievable whilst maintaining a sufficiently good level of accuracy such that reliable design optimisation can be performed in the future. This is illustrated through several figure below. It is demonstrated that the $$\texttt{ChemZIP}$$ can predict dry yields for both major and minor species within a few percent relative error compared to Fluent. Over a long distance of 5 m the accumulation of errors for major and minor species is minimal, indicating robustness and ensuring accurate forecasts even over extended time intervals. Despite not being trained on any three-dimensional test cases (*i.e.,* all of the training data is from 1-D PFR simulations), the $$\texttt{ChemZIP}$$ accurately predicts gradients in the yield perpendicular to the flow direction due to 3-D temperature non-uniformities (due to heated walls) and mass diffusion.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/parity.JPG" title="Parity plot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/parity_time_integrated.jpg" title="Parity plot" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Parity plots against ground truth
+    <strong>Parity plots against ground truth</strong>
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/integrated.JPG" title="Time integrated" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/time_integrated_species.jpg" title="Time integrated" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Time integrated deployment of the model model
+    <strong>Time integrated deployment of the model model</strong>
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/yields.JPG" title="Yield contours" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/yield_compare_pipe.jpg" title="Yield contours" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Verification of yield contours
+    <strong>Verification of yield contours</strong>
 </div>
 
 As a proof-of-concept, the $$\texttt{ChemZIP}$$ is now applied to an engine-relevant multistage axial turbo-reactor architecture. The figure below shows the ethylene yield & production rate, as well as the steady-state coke formation rate on the surfaces of the diffuser blade. Despite the highly complex nature of the flow relative to the more simplified training data provided, the reaction responds as expected to sharp and complex gradients in the temperature and reaction timescale. This is the first-ever numerical simulation performed of the turbo-reactor capturing aerochemical interactions. This will inform design decisions, facilitating aerodynamic design optimisation to improve reaction efficiency and mitigate coking.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/turbo.JPG" title="Yield contours" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/turboreactor_yield_plots.jpg" title="Yield contours" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Proof-of-concept deploying ChemZIP into the turbo-reactor design and modelling system
+    <strong>Proof-of-concept deploying ChemZIP into the turbo-reactor design and modelling system</strong>
 </div>
 
 ## Summary
