@@ -23,7 +23,7 @@ To further advance this methodology, we intend to generalise and modularise this
 
 ## Introduction and Motivation
 
-Decarbonising high-temperature industrial heat within fossil-fuel-fired furnaces is the ``grand challenge'' of energy engineering, and is a critical hurdle in the development of a net-zero society. Greenhouse gas emissions from high-temperature heat ($$T > 400 ^{\circ}$$C) alone account for more than 10% of the global total. For low-temperature heat, various mature low-carbon technologies already exist. However, high-temperature sectors have been plagued with techno-economic hurdles. To address this, this figure showcases
+Decarbonising high-temperature industrial heat within fossil-fuel-fired furnaces is the "grand challenge" of energy engineering, and is a critical hurdle in the development of a net-zero society. Greenhouse gas emissions from high-temperature heat ($$T > 400 ^{\circ}$$C) alone account for more than 10% of the global total. For low-temperature heat, various mature low-carbon technologies already exist. However, high-temperature sectors have been plagued with techno-economic hurdles. To address this, this figure showcases
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -36,7 +36,7 @@ Decarbonising high-temperature industrial heat within fossil-fuel-fired furnaces
 
 the revolutionary new turbomachine called the turbo-reactor proposed as an efficient, effective and financially attractive solution for decarbonising over 40 hard-to-abate sectors. By replacing the surface heat exchange energy transfer mechanism within a furnace with direct mechanical energy transfer to the fluid within the turbo-reactor, the power density can increase by 50 to 500 times, while simultaneously improving the quality of the process. This is enabled by a new turbomachinery principle, in which all mechanical energy transferred to the fluid is converted into kinetic energy and subsequently into internal energy of the fluid, rather than pressure. 
 
-This research focuses on endothermic chemical reaction applications of the turbo-reactor (*e.g,* hydrocarbon cracking, as they pose a unique set of new requirements for the turbomachinery design. For the first time in turbomachinery, the working fluid chemically reacts along most of the bladed path. Therefore, to design the aerothermal bladed path to optimise the chemical reaction dynamics, an accelerated aerochemically coupled numerical solver is required. This work introduces a multi-fidelity, efficiently coupled aerochemistry model, called $$\texttt{ChemZIP}$$, guided by machine learning (ML) to routinely bring reacting flow simulations into the early design phases, rather than being ``one-off'' simulations.
+This research focuses on endothermic chemical reaction applications of the turbo-reactor (*e.g,* hydrocarbon cracking, as they pose a unique set of new requirements for the turbomachinery design. For the first time in turbomachinery, the working fluid chemically reacts along most of the bladed path. Therefore, to design the aerothermal bladed path to optimise the chemical reaction dynamics, an accelerated aerochemically coupled numerical solver is required. This work introduces a multi-fidelity, efficiently coupled aerochemistry model, called $$\texttt{ChemZIP}$$, guided by machine learning (ML) to routinely bring reacting flow simulations into the early design phases, rather than being "one-off" simulations.
 
 ## Data-Driven Efficiently Coupled Aerochemistry Flow Solver
 
@@ -67,14 +67,14 @@ These figures outline the new multi-fidelity ML-assisted $$\texttt{ChemZIP}$$ me
 
 First, non-reacting CFD of the turbo-reactor establishes a realistic envelope of energy supply profiles into the chemical reaction. From this envelope, thousands of energy supply profiles are generated and applied to a detailed chemical kinetic model in a 1-D plug-flow reactor (PFR) environment. These randomly generated energy supply profiles (within a realistic envelope) lead to a broad spectrum of reaction perturbations for which the thermochemical state (*e.g.,* $$Y_k$$ & $$T$$) and response dynamics (*e.g.,* $$\dot{\omega}_k$$) can be recorded. This forms a large database for training the $$\texttt{ChemZIP}$$ model with over 5 million samples. By simplifying the fluid dynamics (*i.e.,* by using a PFR) while retaining detailed kinetics, this methodology provides an elegant solution to rapidly generate a training database that densely and widely covers the relevant region of the thermochemical space in only a few hours.
 
-Subsequently, a ML-assisted $$\texttt{ChemZIP}$$ model is developed using an autoencoder neural network (NN). This NN architecture compresses the high-dimensional thermochemical space ($$\mathcal{O}(200 - 1000)$$ chemical species and $$\mathcal{O}(1000 - 10000)$$ reactions) into a substantially lower-dimensional latent space ($$\mathcal{O}\{3\}$$), where a reduced set of *meta* species $$Z_m$$ are mapped to their corresponding source terms $$\dot{\omega}_{Z_m}$$. These source terms represent the dynamic response in the latent space. In effect, the training procedure described above produces a ``custom compression algorithm'' that uncovers preexisting low-dimensional latent spaces hidden within the governing physics.
+Subsequently, a ML-assisted $$\texttt{ChemZIP}$$ model is developed using an autoencoder neural network (NN). This NN architecture compresses the high-dimensional thermochemical space ($$\mathcal{O}(200 - 1000)$$ chemical species and $$\mathcal{O}(1000 - 10000)$$ reactions) into a substantially lower-dimensional latent space ($$\mathcal{O}\{3\}$$), where a reduced set of *meta* species $$Z_m$$ are mapped to their corresponding source terms $$\dot{\omega}_{Z_m}$$. These source terms represent the dynamic response in the latent space. In effect, the training procedure described above produces a "custom compression algorithm" that uncovers preexisting low-dimensional latent spaces hidden within the governing physics.
 
-Coupling the $$\texttt{ChemZIP}$$ with a 3-D viscous CFD solver entails adding only three additional ``meta'' species scalar transport equations, where the dynamics are captured through source terms $$\dot{\omega}_{Z_m}$$ mapped by the pre-trained NN. A key feature of this methodology is that on the fluid flow modelling side, no new modelling assumptions are made, and its fidelity can range from RANS to high-fidelity LES modelling.
+Coupling the $$\texttt{ChemZIP}$$ with a 3-D viscous CFD solver entails adding only three additional "meta" species scalar transport equations, where the dynamics are captured through source terms $$\dot{\omega}_{Z_m}$$ mapped by the pre-trained NN. A key feature of this methodology is that on the fluid flow modelling side, no new modelling assumptions are made, and its fidelity can range from RANS to high-fidelity LES modelling.
 
 Once the CFD has converged, the high-dimensional physical space, consisting of $$\mathcal{O}\{200 - 1000\}$$ species mass fractions, can be reconstructed (*i.e.,* decompressed). This powerful methodology enables a speed-up of 100 to 1000 times relative to reacting flow CFD with detailed chemical kinetics, while maintaining high-fidelity aerothermal modelling and accurately capturing the dynamics of a detailed kinetic model. This will enable aerochemical optimisation to be brought to the design level for the first time. 
 
 
-### 3-D Viscous Verification and Proof-of-Concept
+### 3-D Viscous Verification and Benchmarking
 
 To demonstrate the feasibility, success, and future potential of this new methodology, numerical predictions of the $$\texttt{ChemZIP}$$ are compared with an industry-standard 3-D viscous reacting flow CFD solver Fluent with a detailed chemical kinetic mechanism. A 5 m long heated square duct is used as a verification test case. Crucially, the figure below illustrates that the $$\texttt{ChemZIP}$$ can achieve a two-order-of-magnitude speedup relative to a commercial solver with detailed kinetics.
 
@@ -87,8 +87,7 @@ To demonstrate the feasibility, success, and future potential of this new method
     Performance benchmarking of ChemZIP compared with a state-of-the-art solver
 </div>
 
-<!-- This sizeable computational acceleration is achievable whilst maintaining a sufficiently good level of accuracy such that reliable design optimisation can be performed in the future. Figure~\ref{fig:validation_yields} demonstrates that the \texttt{ChemZIP} can predict dry yields for both major and minor species within a few percent relative error compared to \textsc{Fluent}. Over a long distance of \SI{5}{\meter} the accumulation of errors for major and minor species is minimal, indicating robustness and ensuring accurate forecasts even over extended time intervals. Despite not being trained on any three-dimensional test cases (\textit{i.e.,} all of the training data is from 1-D PFR simulations), the \texttt{ChemZIP} accurately predicts gradients in the yield perpendicular to the flow direction due to 3-D temperature non-uniformities (due to heated walls) and mass diffusion. -->
-
+This sizeable computational acceleration is achievable whilst maintaining a sufficiently good level of accuracy such that reliable design optimisation can be performed in the future. This is illustrated through several figure below. It is demonstrated that the $$\texttt{ChemZIP}$$ can predict dry yields for both major and minor species within a few percent relative error compared to Fluent. Over a long distance of 5 m the accumulation of errors for major and minor species is minimal, indicating robustness and ensuring accurate forecasts even over extended time intervals. Despite not being trained on any three-dimensional test cases (*i.e.,* all of the training data is from 1-D PFR simulations), the $$\texttt{ChemZIP}$$ accurately predicts gradients in the yield perpendicular to the flow direction due to 3-D temperature non-uniformities (due to heated walls) and mass diffusion.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -116,3 +115,22 @@ To demonstrate the feasibility, success, and future potential of this new method
 <div class="caption">
     Verification of yield contours
 </div>
+
+As a proof-of-concept, the $$\texttt{ChemZIP}$$ is now applied to an engine-relevant multistage axial turbo-reactor architecture. The figure below shows the ethylene yield & production rate, as well as the steady-state coke formation rate on the surfaces of the diffuser blade. Despite the highly complex nature of the flow relative to the more simplified training data provided, the reaction responds as expected to sharp and complex gradients in the temperature and reaction timescale. This is the first-ever numerical simulation performed of the turbo-reactor capturing aerochemical interactions. This will inform design decisions, facilitating aerodynamic design optimisation to improve reaction efficiency and mitigate coking.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/turbo.JPG" title="Yield contours" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Proof-of-concept deploying ChemZIP into the turbo-reactor design and modelling system
+</div>
+
+## Summary
+
+In summary, this work describes the development of a new multi-fidelity ML-assisted $$\texttt{ChemZIP}$$ to provide an efficient solution to incorporate aerochemical interactions early in the design cycle. This will enable detailed and comprehensive chemical kinetic models that accurately capture realistic reaction dynamics (but contain $$\mathcal{O}(1000)$$ species and $$\mathcal{O}(10000)$$ reactions) to be compressed into a reduced dimensionality space, and coupled with a high-fidelity fluid solver at a computational cost 100 $$-$$ 1000 times lower than state-of-the-art acceleration techniques in Fluent. This is a vital step in designing a new class of turbomachines with the unique requirement of controlling reactions along the bladed flow path.
+
+This new methodology will open up an entirely new design space for aerothermochemically optimising chemical catalytic processes---including carbon capture, synthetic fuel production, ammonia cracking, hydrogen production, and many more. Therefore, $$\texttt{ChemZIP}$$ is a vital enabler for the development of novel processes for the next-generation low-carbon industrial sector.
+
+This step-change advancement in the field of computational science brings multiphysics from being "one-off" simulations to being exploited routinely at the design optimisation level. Whilst historically, this development cycle would require many physical experiments, now, by integrating complex multiphysics early in the design cycle, the burden on experiments can be reduced and costs saved, accelerating the net-zero transition.
