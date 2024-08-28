@@ -17,9 +17,9 @@ social: true # includes social icons at the bottom of the page
 ---
 
 ### **Me**  
-I am an Engineering PhD student at the University of Oxford, working at the intersection of machine learning, computational science, and multiphysics. My research focuses on developing multidisciplinary and multifidelity numerical tools to accelerate the transition to a zero-carbon society.
+I am an Engineering PhD student at the University of Oxford, working at the intersection of machine learning, computational science, and multiphysics. My current research focuses on developing  multiphysics tools accelerated by multifidelity machine learning, enabling the transition to a zero-carbon society.
 
-### **Selected Research**  
+### **Selected Research Projects**  
 I have worked on a variety of projects, including, but not limited to:
 
 - **Accelerating Chemically Reacting Flow Simulations:** Using machine learning to elegantly speed up simulations of chemically reacting flows by three orders of magnitude.
