@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Engineering PhD Student at the University of Oxford in the <a href="https://rosic-group.github.io/rosic-group/">Rosic Group</a>
+subtitle: Engineering PhD Student at the University of Oxford in the <a href="https://rosic-group.github.io/rosic-group/">Rosic Group</a> at the <a href="https://oti.eng.ox.ac.uk/">OTI</a>
 
 profile:
   align: right
