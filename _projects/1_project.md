@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Can we bring multiphysics modelling to the design level?
+title: Can We Bring Multiphysics Modelling to the Design Level?
 description: Accelerating reacting flow computations using ML
 img: assets/img/autoencoder.jpg
 importance: 1
