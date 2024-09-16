@@ -7,7 +7,7 @@ subtitle: Engineering PhD Student at the University of Oxford in the <a href="ht
 profile:
   align: right
   image: Head_Shot.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info:
 
 news: false # includes a list of news items
