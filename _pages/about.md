@@ -23,7 +23,7 @@ I enjoy working at the intersection of machine learning, computational science, 
 I have worked on a variety of projects, including, but not limited to:
 
 - **Accelerating Chemically Reacting Flow Simulations:** Using machine learning to elegantly speed up simulations of chemically reacting flows by three orders of magnitude.
-- **Developing a 3D Viscous Unstructured Turbomachinery Flow Solver:** Created a unstructured mesh flow solver designed for both multiple GPUs and CPUs.
+- **Developing a 3D Viscous Unstructured Turbomachinery Flow Solver:** Creating an unstructured mesh flow solver designed for both multiple GPUs and CPUs.
 - **Chemical Kinetic Solvers with Embedded Multi-Objective Optimizers:** Developing solvers that incorporate multi-objective optimization techniques for improved reaction performance.
 - **High-Fidelity Computational Fluid Dynamics (CFD):** Using high-fidelity CFD to investigate complex aerothermal, supersonic, highly turbulent interactions in a novel turbomachinery concept aimed at decarbonizing over 40 high-temperature processes.
 
