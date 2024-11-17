@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: IAA Doctoral Impact Postdoctoral Scholar in Computational Engineering at University of Oxford in the <a href="https://rosic-group.github.io/rosic-group/">Rosic Group</a> of the <a href="https://oti.eng.ox.ac.uk/">OTI</a> lab
+subtitle: EPSRC IAA Doctoral Impact Postdoctoral Scholar in Computational Engineering at University of Oxford in the <a href="https://rosic-group.github.io/rosic-group/">Rosic Group</a> of the <a href="https://oti.eng.ox.ac.uk/">OTI</a> lab and Drapers Company Junior Research <a href="https://www.st-annes.ox.ac.uk/cpt_people/rubini-dylan/">Fellow</a> in Engineering.
 
 profile:
   align: right
