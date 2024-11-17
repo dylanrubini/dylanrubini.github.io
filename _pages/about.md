@@ -17,7 +17,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 ### **About Me**  
-I enjoy working at the intersection of machine learning, computational science, and multiphysics. My current research focuses on developing  multiphysics tools accelerated by multifidelity machine learning, enabling the transition to a zero-carbon society.
+I am a mechanical and thermofluids engineer who enjoys working at the intersection of multiphysics modelling, computational science, and machine learning. My current research focuses on developing multiphysics modelling tools accelerated by multifidelity machine learning, which can enable the transition to a zero-carbon society.
 
 ### **Selected Research Projects**  
 I have worked on a variety of projects, including, but not limited to:
