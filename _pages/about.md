@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: EPSRC IAA Doctoral Impact Postdoctoral Scholar in Computational Engineering at University of Oxford in the <a href="https://rosic-group.github.io/rosic-group/"> Sustainable Thermal Energy and Power Systems </a> Group (The Rosic Group) of the <a href="https://oti.eng.ox.ac.uk/">Oxford Thermofluids Institute</a> and the Drapers Company Junior Research <a href="https://www.st-annes.ox.ac.uk/cpt_people/rubini-dylan/">Fellow</a> in Engineering.
+subtitle: EPSRC IAA Doctoral Impact <a href="https://eng.ox.ac.uk/people/dylan-rubini/">Postdoctoral Scholar</a> in Computational Engineering at University of Oxford in the <a href="https://rosic-group.github.io/rosic-group/"> Sustainable Thermal Energy and Power Systems </a> Group (The Rosic Group) of the <a href="https://oti.eng.ox.ac.uk/">Oxford Thermofluids Institute</a> and the Drapers Company Junior Research <a href="https://www.st-annes.ox.ac.uk/cpt_people/rubini-dylan/">Fellow</a> in Engineering.
 
 profile:
   align: right
