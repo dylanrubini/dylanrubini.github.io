@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: EPSRC IAA Doctoral Impact <a href="https://eng.ox.ac.uk/people/dylan-rubini/">Postdoctoral Scholar</a> in Computational Engineering at University of Oxford in the Sustainable Thermal Energy and Power Systems Group (The Rosic Group) of the <a href="https://oti.eng.ox.ac.uk/">Oxford Thermofluids Institute</a> and the Drapers Company Junior Research <a href="https://www.st-annes.ox.ac.uk/cpt_people/rubini-dylan/">Fellow</a> in Engineering.
+subtitle: <a href="https://eng.ox.ac.uk/people/dylan-rubini/">Postdoctoral Researcher</a> in Multiphysics Modelling and Machine Learning at the University of Oxford and Junior Research <a href="https://www.st-annes.ox.ac.uk/cpt_people/rubini-dylan/">Fellow</a> in Engineering at St Anne's College.
 
 profile:
   align: right
@@ -17,11 +17,12 @@ social: true # includes social icons at the bottom of the page
 ---
 
 ### **About Me**  
-I am a mechanical and thermofluids engineer who enjoys working at the intersection of multiphysics modelling, computational science, and machine learning. My current research focuses on developing multiphysics modelling tools accelerated by multifidelity machine learning, which can enable the transition to a zero-carbon society.
+Multiphysics Modelling Engineer specialising in AI-accelerated computational modelling. Passionate about developing advanced numerical solutions to solve high-impact, complex, and multidisciplinary engineering challenges in the energy transition.
 
 ### **Selected Research Projects**  
 I have worked on a variety of projects, including, but not limited to:
 
+- **Agentic LLMs for Science:** Automating tasks in computational science using agentic LLMs.
 - **Accelerating Chemically Reacting Flow Simulations:** Using machine learning to elegantly speed up simulations of chemically reacting flows by three orders of magnitude.
 - **Developing a 3D Viscous Unstructured Turbomachinery Flow Solver:** Creating an unstructured mesh flow solver designed for both multiple GPUs and CPUs.
 - **Chemical Kinetic Solvers with Embedded Multi-Objective Optimizers:** Developing solvers that incorporate multi-objective optimization techniques for improved reaction performance.
