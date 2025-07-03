@@ -23,13 +23,12 @@ layout: default
 
     <article>
       {% if page.cv_pdf %}
-        <div class="cv-pdf-container mb-4">
+        <div class="cv-pdf-container">
           <embed
             src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
             type="application/pdf"
             width="100%"
-            height="800px"
-            class="border border-secondary rounded"
+            height="1000px"
           />
         </div>
       {% endif %}
@@ -80,13 +79,12 @@ layout: default
 
     <article>
       {% if page.cv_pdf %}
-        <div class="cv-pdf-container mb-4">
+        <div class="cv-pdf-container">
           <embed
             src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
             type="application/pdf"
             width="100%"
-            height="800px"
-            class="border border-secondary rounded"
+            height="1000px"
           />
         </div>
       {% endif %}
