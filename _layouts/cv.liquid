@@ -22,6 +22,17 @@ layout: default
     </header>
 
     <article>
+      {% if page.cv_pdf %}
+        <div class="cv-pdf-container mb-4">
+          <embed
+            src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
+            type="application/pdf"
+            width="100%"
+            height="800px"
+            class="border border-secondary rounded"
+          />
+        </div>
+      {% endif %}
       <div class="cv">
         {% for entry in site.data.cv %}
           <a class="anchor" id="{{ entry.title }}"></a>
@@ -68,6 +79,17 @@ layout: default
     </header>
 
     <article>
+      {% if page.cv_pdf %}
+        <div class="cv-pdf-container mb-4">
+          <embed
+            src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
+            type="application/pdf"
+            width="100%"
+            height="800px"
+            class="border border-secondary rounded"
+          />
+        </div>
+      {% endif %}
       <div class="cv">
         {% for data in site.data.resume %}
           {% if site.jsonresume and site.jsonresume.size > 0 %}
