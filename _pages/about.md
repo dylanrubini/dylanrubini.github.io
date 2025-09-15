@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href="https://eng.ox.ac.uk/people/dylan-rubini/">Postdoctoral Researcher</a> in Multiphysics Modelling and Machine Learning at the University of Oxford and Junior Research <a href="https://www.st-annes.ox.ac.uk/cpt_people/rubini-dylan/">Fellow</a> in Engineering at St Anne's College.
+subtitle: AI4Science Research Engineer at <a href="https://www.emmi.ai/">Emmi AI</a>.
 
 profile:
   align: right
@@ -20,8 +20,8 @@ social: true # includes social icons at the bottom of the page
 Multiphysics Modelling Engineer specialising in AI-accelerated computational modelling. Passionate about developing advanced numerical solutions to solve high-impact, complex, and multidisciplinary engineering challenges in the energy transition.
 
 ### **Selected Research Projects**  
-I have worked on a variety of projects, including, but not limited to:
 
+- **Neural Surrogates of PDEs:** Developing AI-powered physics architectures to unlock realtime engineering design.
 - **Agentic LLMs for Science:** Automating tasks in computational science using agentic LLMs.
 - **Accelerating Chemically Reacting Flow Simulations:** Using machine learning to elegantly speed up simulations of chemically reacting flows by three orders of magnitude.
 - **Developing a 3D Viscous Unstructured Turbomachinery Flow Solver:** Creating an unstructured mesh flow solver designed for both multiple GPUs and CPUs.
